@@ -1,0 +1,96 @@
+body {
+	/*font-family: Roboto;
+*/  background: -webkit-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* W3C */
+}
+
+#welcomeWindow{
+	background-color: #3276C4;
+	color: whitesmoke;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: normal;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+}
+
+
+#table{
+	margin: 200px auto;
+	width: 400px;
+	border: none;
+}
+
+#secondTableRow{
+	text-align: center;
+	height: 50px;
+}
+
+#img1{
+	width: 40%;
+	margin: 10px;
+}
+
+#img2{
+	width: 40%;
+	margin: 10px;
+}
+
+#img3{
+	width: 40%;
+	margin:10px;
+}
+
+#btnSpin{
+	background-color: #1E6410;
+	color: whitesmoke;
+	text-transform: uppercase;
+	line-height: 50px;
+	height: 50px;
+	font-size : 24px;
+	font-weight: normal;
+	cursor: pointer;
+	text-align: center;
+}
+
+#addBtn{
+	text-transform: uppercase;
+	cursor: pointer;
+	color : whitesmoke;
+	line-height: 50px;
+	font-size: 24px;
+	font-weight: normal;
+	height: 50px;
+	padding-left: 20px;
+}
+
+#creditValue{
+	float: right;
+	color : whitesmoke;
+	line-height: 50px;
+	font-size: 24px;
+	font-weight: normal;
+	height: 50px;
+	padding-right: 20px;
+
+}
+
+#creditRow{
+	background-color: #DC143C;
+}
+
+#fourthRowData{
+	height: 50px;
+	background-color: #E45010;
+}
+
+#volumeControl{
+	color: white;
+	font-size: 24px;
+	margin-left: 20px;
+	cursor: pointer;
+}

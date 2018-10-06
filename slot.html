@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Slot Game</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/css/slot.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <table id="table">
+                <tr>
+                  <td id="welcomeWindow" colspan="3">
+                    Welcome to Slot Machine
+                  </td>
+                </tr>
+                <tr id="secondTableRow">
+                    <td id="firstImage">
+                        <img id="img1" class="img-rounded" src="images/club.png" alt="img1">
+                    </td>
+                    <td>
+                        <img id="img2" class="img-rounded" src="images/diamond.png" alt="img2">
+                    </td>
+                    <td id="thirdImage">
+                        <img id="img3" class="img-rounded" src="images/joker.png" alt="img3">
+                    </td>
+                </tr>
+                <tr>
+                    <td id="btnSpin" colspan="3">
+                        Spin
+                    </td>
+                </tr>
+                 <tr id = "creditRow">
+                    <td id = "addBtn" colspan="2">
+                        Add Credit
+                    </td>
+                    <td id= "creditValue" colspan="1">
+                        0
+                    </td>
+                </tr>
+                <tr>
+                    <td id = "fourthRowData" colspan="3">
+                            <span myStatus='1' id="volumeControl" class="glyphicon glyphicon-volume-up" aria-hidden="true"></span>
+                    </td>
+                </tr>
+                
+        </table>
+
+        <audio id= "myAudio">
+             <source id="myAudioSrc" src="sounds/spin.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+       
+    </div>
+
+
+</body>
+<script type="text/javascript" src= "assets/js/slot.js"></script>
+</html>
